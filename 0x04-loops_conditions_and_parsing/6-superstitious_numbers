@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# a Bsh script that displays numbers from 1 to 20 and
+
+counts=1
+while [ $counts -le 20 ]
+do
+    echo $counts
+    case $counts in
+        4)
+            echo "bad luck from China"
+            ;;
+        9)
+            echo "bad luck from Japan"
+            ;;
+        17)
+            echo "bad luck from Italy"
+            ;;
+    esac
+    ((counts++))
+done
