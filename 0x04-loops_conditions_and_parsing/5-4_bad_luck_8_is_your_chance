@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Display "Best School" x10 with good or bad luck
+
+counts=1
+while [ $counts -le 10 ]
+do
+    if [ $counts -eq 4 ]
+    then
+        echo "bad luck"
+    elif [ $counts -eq 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((counts++))
+done
