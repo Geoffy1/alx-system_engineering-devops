@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Display "Best school" x10 use until
+
+counts = 1
+until [ $counts -gt 10 ]
+do
+    echo "Best School"
+    ((counts++))
+done
