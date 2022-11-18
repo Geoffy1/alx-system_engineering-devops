@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# the IPs displayed depends on machine
+# the IPs displayed depends on mach
 
 ifconfig | grep -o -P '(?<=inet addr:).*?(?=\s)'
