@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # listening for incoming connections for port 98
 
-nc -l localhost 98
+nc -l -k 98
