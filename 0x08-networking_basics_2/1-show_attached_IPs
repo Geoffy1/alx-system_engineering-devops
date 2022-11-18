@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # the IPs displayed depends on machine
 
-ifconfig cut -b 6-| grep -Eo "inet (addr:)?([0-9]*\.){3}[0-9]*" 
+ifconfig | grep -o -P '(?<=inet addr:).*?(?=\s)'
