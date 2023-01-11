@@ -1,4 +1,4 @@
-# create a file in /tmp with specific requirements
+# create a file in /tmp with unique requirements
 
 file { 'school':
   path    => '/tmp/school',
