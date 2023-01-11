@@ -1,4 +1,4 @@
-# kill a process named killmenow
+# kill " killmenow process"
 
 exec {'kill process killmenow':
     command  => 'pkill killmenow',
