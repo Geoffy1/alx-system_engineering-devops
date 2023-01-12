@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Install nginx and start it
+# Install nginx and start
 apt-get -y install nginx
 
 # Firewall setting: Allow Nginx to serve on HTTP
