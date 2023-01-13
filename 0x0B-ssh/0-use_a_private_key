@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# onnect to your server using the private key
+# key ~/.ssh/school with the user ubuntu
+ssh ubuntu@54.164.103.65 -i ~/.ssh/school
