@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# This script installs a load balancer
+# Create a script to install and config HAProxy on lb-01 server
+# Configure HAProxy to send traffic to web-01 and web-02 servers
+
 
 sudo apt-get -y install --no-install-recommends software-properties-common
 sudo add-apt-repository -y ppa:vbernat/haproxy-2.6
