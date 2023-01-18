@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Create a script to install and config HAProxy on lb-01 server
-# Configure HAProxy to send traffic to web-01 and web-02 servers
+# Configure HAProxy to send traffic to web-01 and web-02 server
 
 
 sudo apt-get -y install --no-install-recommends software-properties-common
