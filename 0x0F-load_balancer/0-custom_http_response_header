@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Configures a new Ubuntu server with custom HTTP header resp
+# Configs a new Ubuntu server with custom HTTP header resp
+
+
 apt-get -y update
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
