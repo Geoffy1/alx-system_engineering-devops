@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Fixes web server to run Nginx as the nginx user listening on port 8080.
 # You cannot execute your previous answer file
 pkill apache2
 chown nginx:nginx /etc/nginx/nginx.conf
