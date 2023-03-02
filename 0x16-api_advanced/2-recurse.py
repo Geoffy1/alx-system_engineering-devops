@@ -8,7 +8,7 @@ import requests
 def recurse(subreddit, hot_list=[], after="tmp"):
     """
         return all hot articles
-        and None if invalid subreddit given
+        returns None if invalid subreddit given
     """
     # get user agent
     headers = requests.utils.default_headers()
